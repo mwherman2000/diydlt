@@ -1,8 +1,12 @@
 # diydlt project
 
-The #DIYDLT Blockchain that you can build entirely from scratch using C#, .NETCORE, and Visual Studio.
+The #DIYDLT Blockchain that you can build entirely from scratch using C#, .NETCORE, and Visual Studio
 
 Simply download and follow the tutorials below.
+
+## What does #DIYDLT stand for?
+
+* Do-It-Yourself Distributed Ledger Technology
 
 # Orginal Developer
 
