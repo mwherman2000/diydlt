@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diydlt", "diydlt\diydlt.csproj", "{1944E5D7-8D76-4BA5-A445-2308281747D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1Basic", "Basic\BlockchainDemo\1Basic.csproj", "{4ACB0A91-DFAD-44F1-8C19-23F1F3924DD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2ProofOfWork", "ProofOfWork\BlockchainDemo\2ProofOfWork.csproj", "{4143F878-7987-412C-89D7-365A5F45454D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3TransactionReward", "TransactionReward\BlockchainDemo\3TransactionReward.csproj", "{98DE5346-47E5-4818-8163-BD854E07E079}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4P2PNetwork", "P2PNetwork\BlockchainDemo\4P2PNetwork.csproj", "{751C1648-7DDF-4F77-BCFF-61E80B52CBFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1944E5D7-8D76-4BA5-A445-2308281747D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1944E5D7-8D76-4BA5-A445-2308281747D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1944E5D7-8D76-4BA5-A445-2308281747D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1944E5D7-8D76-4BA5-A445-2308281747D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACB0A91-DFAD-44F1-8C19-23F1F3924DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACB0A91-DFAD-44F1-8C19-23F1F3924DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACB0A91-DFAD-44F1-8C19-23F1F3924DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACB0A91-DFAD-44F1-8C19-23F1F3924DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4143F878-7987-412C-89D7-365A5F45454D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4143F878-7987-412C-89D7-365A5F45454D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4143F878-7987-412C-89D7-365A5F45454D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4143F878-7987-412C-89D7-365A5F45454D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DE5346-47E5-4818-8163-BD854E07E079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DE5346-47E5-4818-8163-BD854E07E079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DE5346-47E5-4818-8163-BD854E07E079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DE5346-47E5-4818-8163-BD854E07E079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751C1648-7DDF-4F77-BCFF-61E80B52CBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751C1648-7DDF-4F77-BCFF-61E80B52CBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751C1648-7DDF-4F77-BCFF-61E80B52CBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751C1648-7DDF-4F77-BCFF-61E80B52CBFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
